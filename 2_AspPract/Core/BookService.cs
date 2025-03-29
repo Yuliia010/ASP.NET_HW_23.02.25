@@ -23,9 +23,9 @@ namespace _2_AspPract.Core
             {
                 Id = book.Id,
                 Title = book.Title,
-                Author = book.Author,
+                Author = book.Author_name,
                 Style = book.Style,
-                PublicationDate = book.PublicationDate,
+                PublicationDate = book.First_publish_year,
                 OtherInfo = book.OtherInfo
             };
             await _repository.AddAsync(bk);
@@ -49,9 +49,9 @@ namespace _2_AspPract.Core
                 {
                     Id = book.Id,
                     Title = book.Title,
-                    Author = book.Author,
+                    Author_name = book.Author,
                     Style = book.Style,
-                    PublicationDate = book.PublicationDate,
+                    First_publish_year = book.PublicationDate,
                     OtherInfo = book.OtherInfo
                 });
             }
@@ -65,9 +65,9 @@ namespace _2_AspPract.Core
             {
                 Id = book.Id,
                 Title = book.Title,
-                Author = book.Author,
+                Author = book.Author_name,
                 Style = book.Style,
-                PublicationDate = book.PublicationDate,
+                PublicationDate = book.First_publish_year,
                 OtherInfo = book.OtherInfo
             };
 
