@@ -22,6 +22,9 @@ namespace _2_AspPract
             builder.Services.AddScoped<IPersonRepository, PersonRepository>();
             builder.Services.AddScoped<IPersonService, PersonService>();
 
+            builder.Services.AddScoped<IBookRepository, BookRepository>();
+            builder.Services.AddScoped<IBookService, BookService>();
+
             var app = builder.Build();
 
             //using ()
