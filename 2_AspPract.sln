@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_AspPract", "2_AspPract\2_AspPract.csproj", "{5F1C370C-81C6-48BD-A6EA-D1E39A4BD050}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D9A1544D-994D-4E56-A547-033B97602325} = {D9A1544D-994D-4E56-A547-033B97602325}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspSecond.DAL", "AspSecond.DAL\AspSecond.DAL.csproj", "{D9A1544D-994D-4E56-A547-033B97602325}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F1C370C-81C6-48BD-A6EA-D1E39A4BD050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F1C370C-81C6-48BD-A6EA-D1E39A4BD050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F1C370C-81C6-48BD-A6EA-D1E39A4BD050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F1C370C-81C6-48BD-A6EA-D1E39A4BD050}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9A1544D-994D-4E56-A547-033B97602325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9A1544D-994D-4E56-A547-033B97602325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9A1544D-994D-4E56-A547-033B97602325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9A1544D-994D-4E56-A547-033B97602325}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0519A4CD-EF7F-4B35-9237-9C4A9BE1FE7A}
+	EndGlobalSection
+EndGlobal
